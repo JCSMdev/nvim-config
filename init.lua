@@ -1,6 +1,5 @@
 require('options')
 
-
 -- PLUGINS
 -- See `:h :packadd`, `:h vim.pack`
 
@@ -31,7 +30,7 @@ vim.pack.add({
   gh('nvim-telescope/telescope.nvim'),
   -- Tree-sitter https://github.com/nvim-treesitter/nvim-treesitter
   gh('nvim-treesitter/nvim-treesitter'),
-  
+
   -- Autocompletion with COQ
   { src = 'https://github.com/ms-jpq/coq_nvim', },
   { src = 'https://github.com/ms-jpq/coq.artifacts', },
