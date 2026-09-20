@@ -8,3 +8,4 @@
 - Telescope for fast file navigation
 - Tree-sitter
 - Reasonable key-binds
+- Easy structure
