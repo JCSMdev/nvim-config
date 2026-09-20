@@ -13,14 +13,16 @@ vim.o.expandtab = true
 vim.o.shiftwidth = 2
 
 
+
 -- Sync clipboard between OS and Neovim. Schedule the setting after `UIEnter` because it can
 -- increase startup-time. Remove this option if you want your OS clipboard to remain independent.
 -- See `:h 'clipboard'`
-vim.api.nvim_create_autocmd('UIEnter', {
-  callback = function()
-    vim.o.clipboard = 'unnamedplus'
-  end,
-})
+-- I don't recommend it use `"+y` instead 
+--vim.api.nvim_create_autocmd('UIEnter', {
+--  callback = function()
+--    vim.o.clipboard = 'unnamedplus'
+--  end,
+--})
 
 vim.o.ignorecase = true
 vim.o.smartcase = true
