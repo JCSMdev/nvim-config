@@ -1,5 +1,5 @@
 # JCSMdev's nvim config
-
+![image](/assets/preview.png)
 ## Package Manager:
 - nvim's built in `vim.pack`
 ## Features:
